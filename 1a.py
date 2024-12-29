@@ -1,0 +1,12 @@
+test1=float(input("Enter the test 1 marks"))
+test2=float(input("Enter the test 2 marks"))
+test3=float(input("Enter the test 3 marks"))
+marks=[]
+marks.append(test1)
+marks.append(test2)
+marks.append(test3)
+print(marks)
+marks.sort(reverse=True)
+print(marks)
+avg_marks=((marks[0]+marks[1])/2)
+print(avg_marks)
